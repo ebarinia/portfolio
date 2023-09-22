@@ -1,10 +1,11 @@
 const About = () => {
     return ( 
         <div className="about-me">
-        <img className="face" src={require("../images/temp.jpg")} alt="my face" />     
-        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-
-</p> 
+        <img className="face" src={require("../images/annoyed.jpg")} alt="my face" />
+        <div className="text">   
+        <h5>Hi! I'm Emmanuel and welcome to my portfolio</h5> 
+        <p>I am a currently a Codeclan student to become a full-stack software developer. I enjoy bulding applications and learning about the tech industry. I LOVE anything related to techology(audio & video in particular), as well as video games and photography.</p>
+        </div>
         </div>
      );
 }

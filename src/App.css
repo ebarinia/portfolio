@@ -15,11 +15,15 @@
 
 .about-me {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
+}
+
+.text {
+  margin-top: 3%;
 }
 
 a:hover {
