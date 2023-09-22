@@ -1,0 +1,14 @@
+ul img {
+    max-width: 20% !important;
+    margin-right: 2%;
+}
+
+.projects {
+    display: flex;
+    padding: 3%;
+}
+
+.grey {
+    background-color: #f9fafa;
+}
+
