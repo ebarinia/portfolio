@@ -6,10 +6,13 @@ ul img {
 .projects {
     display: flex;
     padding: 3%;
-
 }
 
 .grey {
     background-color: #f9fafa;
+}
+
+.portfolio {
+    margin-bottom: 5%;
 }
 

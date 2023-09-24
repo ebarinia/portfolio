@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../components/header/Header";
 import About from "../components/About";
-import Home from "../components/Home";
 import Portfolio from "../components/portfolio/Portfolio";
+import Footer from "../components/footer/Footer";
 
 const PortfolioContainer = () => {
     return ( 
@@ -13,7 +13,8 @@ const PortfolioContainer = () => {
             <Routes>
                 <Route path="/" element={<About/>}/>
                 <Route path="/portfolio" element={<Portfolio/>}/>
-            </Routes>            
+            </Routes>  
+            <Footer/>          
         </Router>
         </>
      );
