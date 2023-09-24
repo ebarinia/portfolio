@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <header className="header">
         <nav className="navbar navbar-expand-lg justify-content-between">
-        <img className="logo" src={require("../../images/logo.png")} alt="logo"/>
+        <a href="/"><img className="logo" src={require("../../images/logo.png")} alt="logo"/></a>
             <div className="navbar-nav">
-                <Link className="nav-link text-white" to={"/"}><h5>Home</h5></Link>
+                {/* <Link className="nav-link text-white" to={"/"}><h5>Home</h5></Link> */}
                 <Link className="nav-link text-white" to={"/portfolio"}><h5>Portfolio</h5></Link>
-                {/* <Link className="nav-link text-white" to={"/experiences"}><h5>Experience</h5></Link> */}
+                <Link className="nav-link text-white" to={"/photography"}><h5>Photography</h5></Link>
             </div>
         </nav>
     </header>

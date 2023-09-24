@@ -4,6 +4,7 @@ import Header from "../components/header/Header";
 import About from "../components/About";
 import Portfolio from "../components/portfolio/Portfolio";
 import Footer from "../components/footer/Footer";
+import Photography from "../components/photography/Photography";
 
 const PortfolioContainer = () => {
     return ( 
@@ -13,6 +14,7 @@ const PortfolioContainer = () => {
             <Routes>
                 <Route path="/" element={<About/>}/>
                 <Route path="/portfolio" element={<Portfolio/>}/>
+                <Route path="/photography" element={<Photography/>}/>
             </Routes>  
             <Footer/>          
         </Router>

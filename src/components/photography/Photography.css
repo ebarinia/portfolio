@@ -1,0 +1,17 @@
+.photography {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+.ring {
+    max-width: 40%;
+    border-radius: 50%;
+    margin-left: 10%;
+    box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.2);
+}
+
+p {
+    margin-top: 5% !important;
+}
