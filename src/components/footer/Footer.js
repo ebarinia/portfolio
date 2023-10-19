@@ -36,7 +36,7 @@ const Footer = () => {
                 {/* Instagram */}
                 <a
                 class="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="https://www.instagram.com/eb8978/"
+                href="https://www.instagram.com/barinia_studio/"
                 role="button"
                 target="_blank"
                 rel="noreferrer"
